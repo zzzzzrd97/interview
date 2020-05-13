@@ -1,4 +1,6 @@
 # JS
+## 数据类型
+## var let const之间的区别
 ## 声明提升类问题
 ### 参考变量对象的创建过程
 * 变量提升
@@ -36,6 +38,7 @@
 ### 执行顺序
 [参考](https://es6.ruanyifeng.com/?search=%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0&x=0&y=0#docs/promise)
 ### Promise.all要怎么实现
+## async await
 ## 页面发了个请求，请求没返回用户就切去另一个页面了，这会有什么影响，怎么处理？fetch请求怎么取消
 ## 节流和防抖
 ## 深拷贝
