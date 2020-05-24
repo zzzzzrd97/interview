@@ -3,6 +3,8 @@
 * Browser
 * HTML+CSS
 * JavaScript
+    * JavaScript
+    * axios
 * NetWork
 * SPA-Frame
     * Vue
@@ -15,3 +17,4 @@
 > 前端规范化
 * Applets
 > 小程序
+* git
