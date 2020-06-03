@@ -1,3 +1,6 @@
+## 编程范式:命令式编程/声明式编程
+## 编程范式:面向对象编程(第一公民:对象)/函数式编程(第一公民:函数)
+
 # JS
 ## script为什么需要html文档加载完完后再加载
 ## 数据类型
@@ -27,7 +30,7 @@
 
 ## 箭头函数
 ## this指向(如何确定)
-## for循环中的作用域
+
 ## 函数式编程
 ## 事件循环机制 
 [参考](https://zhuanlan.zhihu.com/p/33058983)
@@ -57,36 +60,8 @@
 > jsonp跨域、nginx反向代理、node.js中间件代理跨域、后端设置http header、后端在服务器上设置cors
 * CORS头设置
 * 跨域时身份认证信息怎么携带
-## ajax axios fetch
-### ajax
-> jquery.ajax 提供了jsonp支持
-* 优点
-    * 原生支持，不需要任何插件
-    * 基于XMLHttpRequest 无刷新更新页面
-* 缺点
-    * 可能破坏浏览器的后退机制
-    * 嵌套回调，难以处理
-### axios
-> 基于XMLHttpRequest 是promise的实现版本
-* 优点
-    * 支持浏览器和node.js
-    * 支持promise
-    * 能拦截请求和响应
-    * 能取消请求
-    * 自动转换JSON数据
-    * 浏览器端支持防止CSRF(跨站请求伪造)
-### fetch
-> 全局 fetch()方法 不基于XMLHttpRequest
-* 优点
-    * 符合关注分离，没有将输入、输出和用事件来跟踪的状态混杂在一个对象里
-    * 更好更方便的写法
-    * 更加底层，提供的API丰富（request, response）
-    * 脱离了XHR，是ES规范里新的实现方式
-* 缺点
-    * fetchtch只对网络请求报错，对400，500都当做成功的请求，需要封装去处理
-    * etch默认不会带cookie，需要添加配置项
-    * fetch不支持abort，不支持超时控制，使用setTimeout及Promise.reject的实现的超时控制并不能阻止请求过程继续在后台运行，造成了量的浪费
-    * fetch没有办法原生监测请求的进度，而XHR可以
+
+        
 ## js浮点数运算精度问题
 [参考](https://blog.csdn.net/helloxiaoliang/article/details/72723387)
 
