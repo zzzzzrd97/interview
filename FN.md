@@ -100,6 +100,8 @@ module.exports = {
 |:---:|:---:|:---:|
 |.css文件|css-loader|打包css文件,只负责将加载css文件,不负责解析|
 |--|style-loader|将样式添加到DOM文档中|
+|.scss文件|scss-loader|打包scss文件,会将.scss文件解析成css|
+
 
 
 
